@@ -1,0 +1,425 @@
+import numpy as np
+arr = np.array([1, 2, 3, 4])
+print(arr)
+
+import numpy as np
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([4, 5, 6])
+result = arr1 + arr2
+print(result)
+
+import numpy as np
+matrix1 = np.array([[1, 2], [3, 4]])
+matrix2 = np.array([[5, 6], [7, 8]])
+result = np.dot(matrix1, matrix2)
+print(result)
+
+import numpy as np
+data = np.array([1, 2, 3, 4, 5])
+mean = np.mean(data)
+std_dev = np.std(data)
+print(mean, std_dev)
+
+import numpy as np
+arr = np.array([1, 2, 3, 4])
+result = arr * 2
+print(result)
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+print(m)
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+print(m[1,0])
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+print(m[1:])
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+print(m[1,:])
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+print(m[:, 2])
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+print(m[1, 2:])
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+print(m[0:2, 1])
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+print(m[0:2, 1:3])
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+print(m[0, 1, 3])
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+print(m[:, cols])
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+
+print(m.shape)
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+
+print(m.max())
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+
+print(m.max(axis=1))
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+
+print(m.max(axis=0))
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+
+print(m.mean())
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+
+print(m.sum())
+
+import numpy as np
+nums = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+letters = np.array(['a', 'b', 'c', 'd', 'a', 'e', 'b'])
+less_then_5 = nums < 5
+print(less_then_5)
+
+import numpy as np
+nums = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+letters = np.array(['a', 'b', 'c', 'd', 'a', 'e', 'b'])
+pos_a = letters == 'a'
+print(pos_a)
+
+import numpy as np
+nums = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+letters = np.array(['a', 'b', 'c', 'd', 'a', 'e', 'b'])
+less_then_5 = nums < 5
+print(nums[less_then_5])
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+print(mod_m = np.logical_and(m>=3, m<=7))
+
+import numpy as np
+m = np.matrix('1 2 3 4; 5 6 7 8; 9 1 5 7')
+mod_m = np.logical_and(m>=3, m<=7)
+print(mod_m)
+
+import numpy as np
+
+print(np.arange(10))
+
+import numpy as np
+a = [[1, 2], [3, 4]]
+print(np.matrix(a))
+
+import numpy as np
+
+print(np.zeros((3, 4)))
+
+import numpy as np
+
+print(np.eye(3))
+
+import numpy as np
+A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(np.ravel(A))
+
+import numpy as np
+A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+
+import numpy as np
+A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+
+import numpy as np
+a = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+import numpy as np
+x = np.linspace(0, 1, 5)
+y = np.linspace(0, 2, 5)
+xg, yg = np.meshgrid(x, y)
+print(xg)
+print(yg)
+
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+x = np.linspace(0, 1, 5)
+y = np.linspace(0, 2, 5)
+xg, yg = np.meshgrid(x, y)
+print(plt.plot(xg, yg, color="r", marker="*", linestyle="none"))
+
+import numpy as np
+
+print(np.random.permutation(7))
+
+import numpy as np
+a = ['a', 'b', 'c', 'd', 'e']
+print(np.random.permutation(a))
+
+import numpy as np
+v_hor_np = np.array([1, 2])
+print(v_hor_np)
+
+import numpy as np
+v_vert_np = np.array([[1], [2]])
+print(v_vert_np)
+
+import numpy as np
+m_sqr_arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(m_sqr_arr)
+
+import numpy as np
+m_diag = [[1, 0, 0], [0, 5, 0], [0, 0, 9]]
+m_diag_np = np.matrix(m_diag)
+print(m_diag_np)
+
+import numpy as np
+m_e = [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+m_e_np = np.matrix(m_e)
+print(m_e_np)
+
+import numpy as np
+m_zeros = np.zeros((3, 3))
+print(m_zeros)
+
+import numpy as np
+A = np.matrix('1 2 3; 4 5 6')
+print(A.transpose())
+
+import numpy as np
+A = np.matrix('1 2 3; 4 5 6')
+C = 3 * A
+print(C)
+
+import numpy as np
+A = np.matrix('1 6 3; 8 2 7')
+B = np.matrix('8 1 5; 6 9 12')
+print(A + B)
+
+import numpy as np
+A = np.matrix('-4 -1 2; 10 4 -1; 8 3 1')
+
+print(np.linalg.det(A))
+
+import numpy as np
+A = np.matrix('1 -3; 2 5')
+
+print(np.linalg.inv(A))
+
+import numpy as np
+m_eye = np.eye(4)
+
+print(np.linalg.matrix_rank(m_eye))
+
+import numpy as np
+arr = np.arange(1, 10).reshape(3, 3)
+arr = arr * 2
+arr[arr > 10] = 0
+print(arr)
+
+import numpy as np
+arr = np.random.randint(1,101,20)
+divisible_by_5 = arr[arr % 5 == 0]
+arr[arr % 5 == 0] = -1
+print(arr)
+
+import numpy as np
+arr1 = np.random.randint(0, 51, 5).reshape(1, 5)
+arr2 = np.random.randint(0, 51, 5).reshape(1, 5)
+print("Первый массив:\n", arr1)
+print("\nВторой массив:\n", arr2)
+combined_arr = np.concatenate((arr1, arr2), axis=0)
+print("\nОбъединенный массив:\n", combined_arr)
+arr3, arr4 = np.split(combined_arr, 2)  
+print("\nПервый разделенный массив:\n", arr3)
+print("\nВторой разделенный массив:\n", arr4)
+
+import numpy as np
+arr = np.linspace(-10, 10, 50)  
+print("Исходный массив:\n", arr)
+total_sum = np.sum(arr)
+print("\nСумма всех элементов:", total_sum)
+positive_elements = arr[arr > 0]
+positive_sum = np.sum(positive_elements)
+print("\nСумма положительных элементов:", positive_sum)
+negative_elements = arr[arr < 0] 
+negative_sum = np.sum(negative_elements)
+print("\nСумма отрицательных элементов:", negative_sum)
+
+import numpy as np
+identity_matrix = np.eye(4)
+print("Единичная матрица:\n", identity_matrix)
+diagonal_matrix = np.diag([5, 10, 15, 20])
+print("\nДиагональная матрица:\n", diagonal_matrix)
+identity_sum = np.sum(identity_matrix)
+diagonal_sum = np.sum(diagonal_matrix)
+print("\nСумма элементов единичной матрицы:", identity_sum)
+print("Сумма элементов диагональной матрицы:", diagonal_sum)
+if identity_sum > diagonal_sum:
+    print("\nСумма элементов единичной матрицы больше.")
+elif identity_sum < diagonal_sum:
+    print("\nСумма элементов диагональной матрицы больше.")
+else:
+    print("\nСуммы элементов обеих матриц равны.")
+
+import numpy as np
+np.random.seed(42)
+matrix1 = np.random.randint(1, 21, size=(3, 3))
+matrix2 = np.random.randint(1, 21, size=(3, 3))
+print("Матрица 1:\n", matrix1)
+print("\nМатрица 2:\n", matrix2)
+sum_matrix = matrix1 + matrix2
+print("\nСумма матриц:\n", sum_matrix)
+difference_matrix = matrix1 - matrix2
+print("\nРазность матриц:\n", difference_matrix)
+elementwise_product = matrix1 * matrix2
+print("\nПоэлементное произведение матриц:\n", elementwise_product)
+
+import numpy as np
+np.random.seed(42)
+matrix1 = np.random.randint(1, 21, size=(3, 3))
+matrix2 = np.random.randint(1, 21, size=(3, 3))
+sum_matrix = matrix1 + matrix2
+print("\nСумма матриц:\n", sum_matrix)
+difference_matrix = matrix1 - matrix2
+print("\nРазность матриц:\n", difference_matrix)
+elementwise_product = matrix1 * matrix2
+print("\nПоэлементное произведение матриц:\n", elementwise_product)
+
+import numpy as np
+matrix1 = np.random.randint(1, 11, size=(2, 3))
+matrix2 = np.random.randint(1, 11, size=(3, 2))
+print("Матрица 1 (2x3):\n", matrix1)
+print("\nМатрица 2 (3x2):\n", matrix2)
+result_matrix = matrix1 @ matrix2 
+print("\nРезультат матричного умножения (2x2):\n", result_matrix)
+
+import numpy as np
+matrix1 = np.random.randint(1, 11, size=(2, 3))
+matrix2 = np.random.randint(1, 11, size=(3, 2))
+result_matrix = matrix1 @ matrix2 
+print("\nРезультат матричного умножения (2x2):\n", result_matrix)
+
+import numpy as np
+matrix = np.random.rand(3, 3)
+determinant = np.linalg.det(matrix)
+print("\nОпределитель матрицы:", determinant)
+if abs(determinant) > 1 * (10 ** -6):
+    inverse_matrix = np.linalg.inv(matrix)
+    print("\nОбратная матрица:\n", inverse_matrix)
+else:
+    print("\nМатрица вырождена (определитель равен 0), обратная матрица не существует.")
+
+import numpy as np
+matrix = np.random.randint(1, 51, size=(4, 4))
+transposed_matrix = matrix.T 
+print("\nТранспонированная матрица:\n", transposed_matrix)
+trace = np.trace(matrix)
+print("\nСлед матрицы (сумма элементов на главной диагонали):", trace)
+
+import numpy as np
+A = np.array([[2, 3, -1],
+              [4, -1, 2],
+              [-3, 5, 4]])
+B = np.array([5, 6, -2])
+X = np.linalg.solve(A, B)
+print("Решение системы уравнений (x, y, z):", X)
+
+import numpy as np
+
+# Построение системы уравнений:
+# Пусть:
+#   x - бюджет на образование
+#   y - бюджет на здравоохранение
+#   z - бюджет на транспорт
+
+# Уравнения:
+# 1. x + y + z = 5000000 (Общий бюджет)
+# 2. y = 1.5 * z (На здравоохранение в 1.5 раза больше, чем на транспорт)
+# 3. x = 1.2 * y (На образование на 20% больше, чем на здравоохранение)
+
+# Преобразуем уравнения к виду Ax = B:
+# 1. x + y + z = 5000000
+# 2. 0x + y - 1.5z = 0
+# 3. x - 1.2y + 0z = 0
+
+# Матрица коэффициентов A
+A = np.array([[1, 1, 1],
+              [0, 1, -1.5],
+              [1, -1.2, 0]])
+
+# Вектор правой части B
+B = np.array([5000000, 0, 0])
+
+# 1. Решение с помощью np.linalg.solve:
+X_solve = np.linalg.solve(A, B)
+print("Решение с помощью np.linalg.solve:", X_solve)
+
+# 2. Решение методом Крамера:
+def cramer(A, B):
+    det_A = np.linalg.det(A)
+    if abs(det_A) < 1e-8:
+        print("Определитель матрицы A равен 0, решение методом Крамера невозможно.")
+        return None
+
+    X = np.zeros_like(B, dtype=np.float64)
+    for i in range(len(B)):
+        A_i = A.copy()
+        A_i[:, i] = B
+        X[i] = np.linalg.det(A_i) / det_A
+    return X
+
+X_cramer = cramer(A, B)
+print("Решение методом Крамера:", X_cramer)
+
+# 3. Решение матричным методом (нахождение обратной матрицы):
+try:
+    A_inv = np.linalg.inv(A)
+    X_matrix = np.dot(A_inv, B)
+    print("Решение матричным методом:", X_matrix)
+except np.linalg.LinAlgError:
+    print("Матрица A вырождена, решение матричным методом невозможно.")
+    X_matrix = None
+
+# Сравнение результатов:
+print("\nСравнение результатов:")
+if X_solve is not None and X_cramer is not None and X_matrix is not None:
+    print("Разница между np.linalg.solve и методом Крамера:", np.linalg.norm(X_solve - X_cramer))
+    print("Разница между np.linalg.solve и матричным методом:", np.linalg.norm(X_solve - X_matrix))
+
+# Вывод результатов (в рублях):
+if X_solve is not None:
+    print("\nБюджет на образование:", X_solve[0], "рублей")
+    print("Бюджет на здравоохранение:", X_solve[1], "рублей")
+    print("Бюджет на транспорт:", X_solve[2], "рублей")
+
+import numpy as np
+from numpy.linalg import det
+def kramer(A, b):
+    det_A = det(A)
+    if det_A == 0:
+        return "Система не имеет решений или имеет бесконечно много решений."
+    x = np.zeros_like(b)
+    for i in range(len(b)):
+        A_i = A.copy()
+        A_i[:, i] = b
+        x[i] = det(A_i) / det_A
+    return x
